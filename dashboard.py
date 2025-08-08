@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import pycountry as pc
 
 # usando streamlit para configurar a página
 
@@ -135,3 +134,4 @@ with col_graf4:
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
 st.dataframe(df_filtrado)
+
